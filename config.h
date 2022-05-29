@@ -70,6 +70,7 @@ static const struct arg args[] = {
 //	{ wifi_perc, "W: (%3s%% on ", "wlp8s0" },
         { netspeed_rx,  "%sB/s  ", "wlan0" },
 	{ run_command,  "VOL %s  ", "pamixer --get-volume-human"},
+	{ run_command,  "MIC %s  ", "pamixer --source 50 --get-volume-human"},
 	{ battery_perc, "BAT %s%%  ", "BAT0"},
 	{ cpu_perc,     "CPU %s%%  ", NULL	      },
 	{ ram_perc,     "RAM %s%%  ", NULL	      },
